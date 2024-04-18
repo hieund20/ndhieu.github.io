@@ -1,7 +1,7 @@
 {
-  "name": "ndhieu.github.io",
+  "name": "resume",
   "version": "0.1.0",
-  "homepage": "hieund20.github.io/ndhieu.github.io",
+  "homepage": "hieund20.github.io/resume",
   "private": true,
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.5.2",
