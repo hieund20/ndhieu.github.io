@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/hieund20.github.io/ndhieu.github.io/static/css/main.ec2fb907.css",
-    "main.js": "/hieund20.github.io/ndhieu.github.io/static/js/main.2a35bec8.js",
-    "static/js/453.38e4bbba.chunk.js": "/hieund20.github.io/ndhieu.github.io/static/js/453.38e4bbba.chunk.js",
-    "index.html": "/hieund20.github.io/ndhieu.github.io/index.html",
-    "main.ec2fb907.css.map": "/hieund20.github.io/ndhieu.github.io/static/css/main.ec2fb907.css.map",
-    "main.2a35bec8.js.map": "/hieund20.github.io/ndhieu.github.io/static/js/main.2a35bec8.js.map",
-    "453.38e4bbba.chunk.js.map": "/hieund20.github.io/ndhieu.github.io/static/js/453.38e4bbba.chunk.js.map"
+    "main.css": "/hieund20.github.io/resume/static/css/main.c83dfa02.css",
+    "main.js": "/hieund20.github.io/resume/static/js/main.921fbe82.js",
+    "static/js/453.f19e9853.chunk.js": "/hieund20.github.io/resume/static/js/453.f19e9853.chunk.js",
+    "static/media/resume-profile.jpg": "/hieund20.github.io/resume/static/media/resume-profile.2074db34a8069c3b01a7.jpg",
+    "static/media/github.svg": "/hieund20.github.io/resume/static/media/github.b40b1c0378274f892133dea1253e8aa8.svg",
+    "index.html": "/hieund20.github.io/resume/index.html",
+    "main.c83dfa02.css.map": "/hieund20.github.io/resume/static/css/main.c83dfa02.css.map",
+    "main.921fbe82.js.map": "/hieund20.github.io/resume/static/js/main.921fbe82.js.map",
+    "453.f19e9853.chunk.js.map": "/hieund20.github.io/resume/static/js/453.f19e9853.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec2fb907.css",
-    "static/js/main.2a35bec8.js"
+    "static/css/main.c83dfa02.css",
+    "static/js/main.921fbe82.js"
   ]
 }
