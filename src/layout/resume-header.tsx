@@ -29,24 +29,32 @@ const ResumerHeader: React.FC<IResumeHeaderProps> = (props) => {
         <div className="resume-contact col-3">
           <ul>
             <li>
-              <FontAwesomeIcon icon={faPhoneSquare} />{" "}
-              {props.personalInformation?.phoneNumber}
+              <a className="resume-link" href="tel:#">
+                <FontAwesomeIcon icon={faPhoneSquare} />{" "}
+                {props.personalInformation?.phoneNumber}
+              </a>
             </li>
             <li>
               <FontAwesomeIcon icon={faEnvelopeSquare} />{" "}
-              <a href={props.personalInformation?.email}>
+              <a className="resume-link" href="mailto:#">
                 {props.personalInformation?.email}
               </a>
             </li>
             <li>
               <FontAwesomeIcon icon={faGlobe} />{" "}
-              <a href={props.personalInformation?.website}>
+              <a
+                className="resume-link"
+                href={props.personalInformation?.website}
+              >
                 {props.personalInformation?.website}
               </a>
             </li>
             <li>
               <FontAwesomeIcon icon={faFacebookF} />
-              <a href={props.personalInformation?.facebook}>
+              <a
+                className="resume-link"
+                href={props.personalInformation?.facebook}
+              >
                 {props.personalInformation?.facebook}
               </a>
             </li>

@@ -1,15 +1,16 @@
 import React from "react";
+import { ProfileImage } from "../components";
 // import { ProfileImage } from "../component";
-// import resumeProfile from "../assets/images/resume-profile.jpg";
+import resumeProfile from "../assets/images/resume-profile.jpg";
 
 const ResumeIntro: React.FC<{ summary: string }> = ({ summary }) => {
   return (
     <div className="resume-intro">
       <div className="row align-items-center">
-        <div className="col-12">
-          {/* <ProfileImage src={resumeProfile} /> */}
+        <div className="col-3">
+          <ProfileImage src={resumeProfile} />
         </div>
-        <div className="col-12">
+        <div className="col-9">
           <p className="mb-0">{summary}</p>
         </div>
       </div>

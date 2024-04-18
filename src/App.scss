@@ -1,1 +1,42 @@
-@import 'node_modules/bootstrap/scss/bootstrap';
+@import "node_modules/bootstrap/scss/bootstrap";
+
+/*************************** Theme Colours****************************/
+// Define theme colour scheme
+$theme-color-primary: #1d559f;
+$theme-text-color-primary: #292929;
+$theme-text-color-secondary: lighten($theme-text-color-primary, 15%);
+
+/*********** Resume **********/
+.resume-main {
+  margin-top: 3rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 32px;
+}
+
+.resume-name {
+  font-size: 2.75rem;
+  font-weight: 900;
+  letter-spacing: 0.4rem;
+  color: $theme-color-primary;
+}
+
+.resume-tagline {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.resume-contact {
+  border-left: 1px solid rgba(0, 0, 0, 0.08);
+  font-size: 0.75rem;
+}
+
+a.resume-link {
+  color: $theme-text-color-secondary;
+  &:hover {
+    color: $theme-color-primary;
+  }
+}
+
+.resume-profile-image {
+  max-width: 150px;
+}
