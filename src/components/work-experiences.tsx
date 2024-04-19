@@ -13,9 +13,10 @@ const WorkExperiences: React.FC<{
         return (
           <div key={idx} className="item mb-3">
             <div className="row item-heading align-items-center mb-2">
-              <h4 className="item-title">{workExperience.jobPosition}</h4>
+              <h4 className="item-title">{workExperience.company}</h4>
+              <h4 className="item-title text-muted">{workExperience.jobPosition}</h4>
               <div className="item-meta text-muted text-start text-md-end">
-                {workExperience.company} | {workExperience.time}
+                {workExperience.project} | {workExperience.time}
               </div>
             </div>
             <div className="item-content">

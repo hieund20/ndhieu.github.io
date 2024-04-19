@@ -7,7 +7,7 @@ import { faGlobe } from "@fortawesome/free-solid-svg-icons";
 const Projects: React.FC<{ projects: Array<IProject> }> = ({ projects }) => {
   return (
     <section className="project-section py-3">
-      <h3 className="text-uppercase resume-section-heading mb-4">Projects</h3>
+      <h3 className="text-uppercase resume-section-heading mb-4">Personal Projects</h3>
       {projects.map((project, idx) => {
         return (
           <div key={idx} className="item mb-3">

@@ -1,7 +1,7 @@
 import React from "react";
 import { ProfileImage } from "../components";
-// import { ProfileImage } from "../component";
-import resumeProfile from "../assets/images/resume-profile.jpg";
+// import resumeProfile from "../assets/images/resume-profile.jpg";
+import resumeProfile from "../assets/images/personal-profile.jpg";
 
 const ResumeIntro: React.FC<{ summary: string }> = ({ summary }) => {
   return (
